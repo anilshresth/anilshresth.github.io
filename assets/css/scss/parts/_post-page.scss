@@ -22,9 +22,7 @@
   position: relative;
   padding: 0;
   margin: 0;
-  max-height: 500px;
   background-color: $lightgray;
-  overflow: hidden;
   figure {
     position: relative;
     margin: 0;
@@ -42,7 +40,9 @@
   }
   .page-image {
     width: 100%;
-    height: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
   }
 }
 

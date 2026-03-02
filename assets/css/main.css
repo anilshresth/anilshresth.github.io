@@ -954,6 +954,7 @@ table tfoot td {
 .about img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   -webkit-transition: -webkit-transform 0.35s;
@@ -1221,9 +1222,7 @@ a.newer-posts:hover {
   position: relative;
   padding: 0;
   margin: 0;
-  max-height: 500px;
   background-color: #fafafa;
-  overflow: hidden;
 }
 
 .page-cover-image figure {
@@ -1245,7 +1244,9 @@ a.newer-posts:hover {
 
 .page-cover-image .page-image {
   width: 100%;
-  height: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
 }
 
 .page-footer {
