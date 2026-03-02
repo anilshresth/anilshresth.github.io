@@ -1,11 +1,9 @@
-title: "Hello, world! I'm Anil Shrestha"
+title: "Personal blogs"
 description: >
-  Write an awesome description for your new site here. 
-  It will appear in your document head meta and search results.
+ I will write random articles in different technology generally with programming and philsophy
 
 permalink: ':title/'
 
-# FIX 1: Baseurl MUST be empty for a primary user site
 baseurl: "" 
 
 # FIX 2: This must be your custom domain
@@ -14,7 +12,7 @@ url: "https://anilshrestha.name.np"
 # Author Settings
 author: Anil Shrestha
 author-img: david-freeman.jpg 
-about-author: "Hey welcome to my blog, where i write ocassionaly."
+about-author: "Hey welcome to my personal space"
 
 # Build Settings
 markdown: kramdown
